@@ -1,0 +1,248 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(#535351,#B0C4DE);
+    background-repeat: no-repeat;
+}
+
+/* ---- reset ---- */
+body{
+    margin:0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{ display: block;
+    vertical-align: bottom;
+} /* ---- particles.js container ---- */
+
+#particles-js{
+    /*position:absolute;*/
+    /*width: 100%; height: 100%;*/
+    /*background-color: #b61924;*/
+    /*background-image: url("");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: 50% 50%;*/
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+} /* ---- stats.js ---- */
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+.count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles{
+    font-size: 1.1em;
+}
+
+#stats,.count-particles{
+    -webkit-user-select: none;
+    margin-top: 5px; margin-left: 5px;
+}
+
+#stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles{
+    border-radius: 0 0 3px 3px;
+}
+
+.select2-results { color: black; }
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    /*padding-left: 5%;*/
+    margin-top: 2%;
+    /*margin-left: 5%;*/
+}
+
+.logoTitle {
+    position: absolute;
+    left: 1%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 5%;
+}
+
+.buttonModif {
+    margin-right: 3%;
+    margin-bottom: 15%;
+    /*padding: 2px 42px;*/
+    border-radius: 5px;
+    background-color: #519de9;
+    color: white;
+    font-size:0.8em;
+}
+
+
+#footDiv {
+    position: fixed;
+    bottom: 0;
+    right: 5px;
+    color: darkblue ;
+    font-size:0.8em;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#formRegister {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#formRegister input {
+     border-radius: 5px;
+     margin-bottom: 8%;
+     height: 130%;
+ }
+
+input::placeholder {
+    color: dimgray;
+    font-style: italic;
+}
+
+#formRegister select {
+    border-radius: 5px;
+    margin-bottom: 10%;
+    height: 140%;
+}
+
+/*.select2-default {*/
+    /*margin-bottom: 8%;*/
+/*}*/
+
+#logo {
+    width: 220px;
+    height: 80px;
+    margin: 15%;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #708090;
+}
+
+#submit {
+    margin-right: 3%;
+    /*padding: 2px 42px;*/
+    border-radius: 5px;
+    background-color: #519de9;
+    color: white;
+}
+
+#testEditorLink {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    margin-right: 1%;
+    /*padding: 2px 42px;*/
+    border-radius: 5px;
+    background-color: #519de9;
+    color: white;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#messageConfirmation {
+    /*height: 60%;*/
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #91beeb;
+    color: black;
+}
+
+#txtConfirmation {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*#spanConfirmation {*/
+    /*margin-left: 5%;*/
+    /*margin-right: 5%;*/
+    /*font-size:0.8em;*/
+/*}*/
+
+#btnForm {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    /*margin-left: 10%;*/
+    /*margin-right: 10%;*/
+    /*padding: 2px 42px;*/
+    border-radius: 5px;
+    background-color: #519de9;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .logoTitle {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    #footDiv {
+        display: none;
+    }
+}
+
+
+
+
