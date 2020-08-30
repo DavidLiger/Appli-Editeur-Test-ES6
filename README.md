@@ -42,6 +42,8 @@ le développement en couche est devenu possible en JavaScript depuis quelques an
 JavaScript étant un langage prototype, dont la notion de prototype (un objet permettant de créer de nouveaux objet) 
 n’autorise pas l’écriture de classe.
 
+![alt text](https://github.com/DavidLiger/Appli-Editeur-Test-ES6/blob/master/images/diapo-14.png)
+
 Cependant depuis la norme ECMAScript 2015, les classes ont été introduites en JavaScript. 
 Ce qui permet, via ce sucre syntaxique (réécriture facilitant la compréhension sans changer le fonctionnement du langage) 
 d’écrire des classes en JS.
